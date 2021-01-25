@@ -1,0 +1,44 @@
+{
+  "name": "flaming-hot",
+  "version": "1.0.0",
+  "description": "Best League of Legends Live Tracker, no Kappa",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelposada/flaming-hot.git"
+  },
+  "author": "Wissar, TavoOzl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdelposada/flaming-hot/issues"
+  },
+  "homepage": "https://github.com/abdelposada/flaming-hot#readme",
+  "dependencies": {
+    "next": "^10.0.5",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  }
+}
